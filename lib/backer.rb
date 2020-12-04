@@ -13,7 +13,6 @@ class Backer
   
   def back_project_internal(project)
     @backed_projects << (project)
-    project.add_backer(self)
   end
 
   
